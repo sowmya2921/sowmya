@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            #dd,#de{
+                border: 1px solid;
+                width: 150px;
+                display: inline-block;
+            }
+            #d1{
+                display: none;
+                border: 1px solid;
+                width: 150px;
+                position: relative;
+
+            }
+            #dd:hover #d1{
+                display: block;
+                position: absolute;
+            }
+            #d2{
+                display: none;
+                border: 1px solid;
+                width: 150px;
+                position: relative;
+            }
+            #de:hover #d2{
+                display: block;
+                position: absolute;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div id="dd">Inline Elements
+            <div id="d1">
+                <div>B</div>
+                <div>I</div>
+                <div>U</div>
+                <div>Strong</div>
+                <div>Strike</div> 
+                <div>Span</div>
+                <div>A</div>
+                <div>Img</div>
+                <div>Input</div>
+            </div>   
+        </div>
+        <div id="de">Block Elements
+            <div id="d2">
+                <div>H1....H2</div>
+                <div>Div</div>
+                <div>Table</div>
+                <div>UL,OL,LI,DL,DD,DT</div>
+                <div>Form</div> 
+                <div>P</div>
+            </div>   
+        </div>
+    </body>
+</html>

@@ -1,36 +1,38 @@
 <html>
     <head>
         <style>
-            #a1{
+             #b1{
                 width: 100px;
                 height: 100px;
                 border: 1px solid;
-                background-color: blue;
+                background-color:black;
             }
-            #a2{
+            #b2{
                 width: 100px;
                 height: 100px;
                 border: 1px solid;
-                background-color: brown;
+                background-color:green;
                 position: absolute;
                 top: 50px;
                 left: 50px;
+                z-index: -1;
             }
-            #a3{
+            #b3{
                 width: 100px;
                 height: 100px;
                 border: 1px solid;
-                background-color: chartreuse;
+                background-color:pink;
                 position: absolute;
-                bottom: 0px;
-                left: 0px;
-            } 
+                top: 100px;
+                left: 100px;
+                z-index: -2;
+            }
         </style>
     </head>
     <body>
-           <div id="a1"></div>
-           <div id="a2"></div>
-           <div id="a3"></div>  
+        <div id="b1"></div>
+        <div id="b2"></div>
+        <div id="b3"></div>
+
     </body>
 </html>
-
