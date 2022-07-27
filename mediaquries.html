@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            #a1,#a2,#a3,#a4,#a5,#a6{
+                width: 13%;
+                height: 50px;
+                border: 1px solid;
+                margin: 10px;
+                padding: 4px;
+                display: inline-block;
+                background-color: blue;
+            }
+            @media screen and (max-width:800px) {
+                #a1,#a2,#a3,#a4,#a5,#a6{
+                width: 40%;
+                height: 50px;
+                border: 1px solid;
+                margin: 10px;
+                padding: 4px;
+                display: inline-block;
+                background-color:purple;   
+            }
+            @media print {
+                body{
+                    background-color: green;
+                }
+                #a1,#a2{
+                    background-color: red;
+                }     
+            }
+        </style>
+    </head>
+    <body>
+        <div id="aa">
+            <div id="a1"></div>
+            <div id="a2"></div>
+            <div id="a3"></div>
+            <div id="a4"></div>
+            <div id="a5"></div>
+            <div id="a6"></div>
+        </div>
+    </body>
+</html>
